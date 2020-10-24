@@ -86,7 +86,7 @@ public class ClientHandler {
                                 }
                                 server.privateMsg( this, token[1], token[2] );
                             }
-                            if (str.startsWith( "/change " )) {
+                            if (str.startsWith( "/ch " )) {
                                 String[] token = str.split( "\\s", 2 );
                                 if (token.length < 2) {
                                     continue;
